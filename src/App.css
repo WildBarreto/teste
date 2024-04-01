@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}

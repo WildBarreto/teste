@@ -1,0 +1,32 @@
+.chevron {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80px;
+  right: 38%;
+  bottom: 30px;
+}
+
+.left {
+  font-size: 25px;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgba(58, 58, 58, 1);
+}
+.left:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.right {
+  font-size: 25px;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgba(58, 58, 58, 1);
+}
+.right:hover {
+  color: rgba(255, 255, 255, 1);
+}
