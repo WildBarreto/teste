@@ -1,7 +1,7 @@
 .chevron {
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  position: absolute;
   width: 80px;
   right: 38%;
   bottom: 30px;

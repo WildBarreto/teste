@@ -1,10 +1,11 @@
 .banner {
   height: 100vh;
-  width: 65vw;
+  width: 68vw;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../../assets/Banner login.png");
 }
 
 .banner > img {
@@ -13,3 +14,56 @@
   max-width: 100%;
 }
 
+.informs {
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  width: 64vw;
+  bottom: 80px;
+}
+
+.informs > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.informs > p {
+  color: rgba(144, 144, 144, 1);
+  width: 63vw;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.informs > button {
+  background-color: rgba(7, 97, 226, 1);
+  padding: 5px;
+  width: 70px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.dashed {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.dashed > div {
+  min-width: 50px;
+  min-height: 5px;
+  border-radius: 10px;
+  background-color: rgba(34, 34, 34, 1);
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 1); /* Define a cor quando a div está ativa */
+}
