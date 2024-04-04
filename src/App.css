@@ -10,3 +10,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+.login{
+  display: flex;
+  flex-direction: co;
+}

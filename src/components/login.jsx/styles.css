@@ -1,0 +1,77 @@
+.container {
+  width: 40%;
+  background-color: rgba(249, 249, 249, 1);
+}
+.head {
+  width: 80%;
+  margin: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.head > img {
+  width: 120px;
+}
+
+.head > button {
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(7, 97, 226, 1);
+  cursor: pointer;
+}
+
+.typeLogin {
+  margin:  20px 50px;
+}
+
+.typeLogin > h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.typeLogin > h2 {
+  color: rgba(88, 88, 88, 1);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 450px;
+  height: 55px;
+}
+
+.buttonContainer > button {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+.buttonContainer > button > img {
+  height: 100%;
+}
+
+.or {
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.or > div {
+  min-width: 200px;
+  height: 1px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+ 
+}
+
+.or >span{
+  font-weight: 500;
+}

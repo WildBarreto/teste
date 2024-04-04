@@ -1,0 +1,99 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form > label {
+  margin-left: 35px;
+  padding: 10px;
+}
+form > label > div {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgba(106, 106, 106, 1);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form > label > div:focus-within {
+  border-color: blue; /* Adicione o estilo desejado */
+}
+
+form > label > div > input {
+  width: 88%;
+  background-color: rgba(249, 249, 249, 1);
+  height: 35px;
+  border: none;
+  margin-left: 5px;
+  outline: none;
+}
+form > label > div > img {
+  margin: 15px;
+}
+
+.check {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.capcha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 1px solid rgba(224, 224, 224, 1);
+  font-size: 10px;
+}
+
+.capcha > input {
+  width: 25px;
+  margin: 10px;
+}
+
+.capcha > span{
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 150px;
+}
+
+.capcha > div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.capcha > div > img {
+  height: 35px;
+  width: 35px;
+  margin-left: 20px;
+}
+
+.capcha > div > span {
+  font-size: 10px;
+  margin-right: 0px;
+}
+
+
+.enter{
+  display: flex; /* Usando flexbox para o layout */
+  align-items: center; /* Alinhando os itens verticalmente */
+  justify-content: center; /* Centralizando horizontalmente */
+  background-color: rgba(7, 97, 226, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: auto;
+}
+
+.enter > img{
+  vertical-align: middle; /* Alinhando verticalmente com o texto */
+  margin-right: 10px
+}

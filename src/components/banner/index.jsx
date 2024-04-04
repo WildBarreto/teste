@@ -5,10 +5,10 @@ import { Carousel } from "../carousel";
 import "./styles.css";
 
 export function Banner() {
-  const [isActive, setIsActive] = useState(true); // Definindo o estado inicial como false
+  const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
-    setIsActive(!isActive); // Alternando o estado ao clicar
+    setIsActive(!isActive); // Invertendo o estado ao clicar
   };
 
   return (
